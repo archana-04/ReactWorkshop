@@ -1,11 +1,8 @@
-import "./App.css";
-import Nav from "./components/toDo/Nav";
-import Forms from "./components/toDo/Forms";
+import Forms from "./component/Forms";
 
 function App() {
   return (
     <div>
-      <Nav></Nav>
       <div className="p-4">
         <Forms></Forms>
       </div>
